@@ -1,0 +1,5 @@
+package com.estudos.microsservicos.hrworker.entity;
+
+public class Payment {
+
+}

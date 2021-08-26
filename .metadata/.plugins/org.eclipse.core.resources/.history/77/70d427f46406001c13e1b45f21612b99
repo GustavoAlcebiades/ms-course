@@ -1,0 +1,5 @@
+package com.estudos.microsservicos.hrworker.Service;
+
+public class PaymentService {
+
+}

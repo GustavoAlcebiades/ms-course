@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/GustavoAlcebiades/ms-course.git"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\gusta\git\ms-course\.git">
+			<item value="false"/>
+			<item value="GustavoAlcebiades&lt;gustavo.alcebiades@hotmail.com.br&gt;"/>
+			<item value="commit criacao microsservico worker"/>
+			<item value="GustavoAlcebiades&lt;gustavo.alcebiades@hotmail.com.br&gt;"/>
+			<item value="1735b755a70bf10d24859e8fdb272ce174701ff3"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+	</section>
+</section>
