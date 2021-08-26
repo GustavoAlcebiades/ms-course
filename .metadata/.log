@@ -12057,3 +12057,371 @@ java.nio.file.FileSystemException: C:\ws_project\hr-payroll: O arquivo já está
 	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:200)
 	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:24.424
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:24.436
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c8a402d[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:24.438
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:30.800
+!MESSAGE Boot LS startup time from start to initialized: 6333ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.079
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fLgEcKDKisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.081
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.082
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.084
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.085
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fLgEcKDK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.087
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.113
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.123
+!MESSAGE buffering callback sts4.classpath.fLgEcKDK hr-payroll false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.125
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.149
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.159
+!MESSAGE buffering callback sts4.classpath.fLgEcKDK hr-worker false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:31.160
+!MESSAGE executing callback sts4.classpath.fLgEcKDK 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:33.170
+!MESSAGE executing callback sts4.classpath.fLgEcKDK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-08-26 09:41:33.172
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:50.266
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fLgEcKDK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:50.268
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.fLgEcKDK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:50.269
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:50.270
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fLgEcKDK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:50.299
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:50.302
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c8a402d[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:50.303
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.305
+!MESSAGE Boot LS startup time from start to initialized: 5999ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.830
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.urHQOxQxisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.831
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.832
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.833
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.833
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.834
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.urHQOxQx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.848
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.852
+!MESSAGE buffering callback sts4.classpath.urHQOxQx hr-payroll false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.853
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.864
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.879
+!MESSAGE buffering callback sts4.classpath.urHQOxQx hr-worker false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:56.881
+!MESSAGE executing callback sts4.classpath.urHQOxQx 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 09:41:58.343
+!MESSAGE executing callback sts4.classpath.urHQOxQx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:00:43.870
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:00:43.873
+!MESSAGE buffering callback sts4.classpath.urHQOxQx hr-payroll true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:00:43.875
+!MESSAGE executing callback sts4.classpath.urHQOxQx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:00:44.318
+!MESSAGE executing callback sts4.classpath.urHQOxQx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:22.122
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:22.190
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:22.218
+!MESSAGE buffering callback sts4.classpath.urHQOxQx hr-payroll false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:22.222
+!MESSAGE executing callback sts4.classpath.urHQOxQx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:22.558
+!MESSAGE executing callback sts4.classpath.urHQOxQx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:23.203
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:23.209
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:23.215
+!MESSAGE buffering callback sts4.classpath.urHQOxQx hr-payroll false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:23.216
+!MESSAGE executing callback sts4.classpath.urHQOxQx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:23.307
+!MESSAGE executing callback sts4.classpath.urHQOxQx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:56.783
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:56.791
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:56.796
+!MESSAGE buffering callback sts4.classpath.urHQOxQx hr-payroll false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:56.798
+!MESSAGE executing callback sts4.classpath.urHQOxQx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:01:56.834
+!MESSAGE executing callback sts4.classpath.urHQOxQx SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-08-26 10:03:23.934
+!MESSAGE close() called when useCnt is already zero for Repository[C:\Users\gusta\git\ms-course\.git]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:24.079
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:24.080
+!MESSAGE buffering callback sts4.classpath.urHQOxQx hr-worker true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:24.080
+!MESSAGE executing callback sts4.classpath.urHQOxQx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:24.087
+!MESSAGE executing callback sts4.classpath.urHQOxQx SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-26 10:03:24.483
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:643)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:144)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:87)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:123)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:115)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2021-08-26 10:03:24.484
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-26 10:03:25.196
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:643)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:144)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:87)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:123)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:115)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2021-08-26 10:03:25.196
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-26 10:03:25.198
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:643)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:144)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:87)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:123)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:115)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2021-08-26 10:03:25.198
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-26 10:03:25.200
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:643)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:144)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:87)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:123)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:115)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2021-08-26 10:03:25.200
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-26 10:03:25.433
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:643)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:144)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:87)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:123)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:115)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2021-08-26 10:03:25.433
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-26 10:03:25.434
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:643)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:144)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:87)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:123)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:115)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2021-08-26 10:03:25.434
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-26 10:03:25.436
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:643)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:144)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:87)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:123)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:115)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2021-08-26 10:03:25.436
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+
+!ENTRY Activator 4 0 2021-08-26 10:03:25.781
+!MESSAGE DebugException: Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:885)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1368)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:414)
+	at org.springframework.ide.eclipse.boot.launch.devtools.BootDevtoolsClientLaunchConfigurationDelegate.isManaged(BootDevtoolsClientLaunchConfigurationDelegate.java:281)
+	at org.springframework.ide.eclipse.boot.dash.devtools.DevtoolsUtil$1.deleteConf(DevtoolsUtil.java:283)
+	at org.springframework.ide.eclipse.boot.dash.devtools.DevtoolsUtil$1.processTerminated(DevtoolsUtil.java:278)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:112)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:78)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:48)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2021-08-26 10:03:25.782
+!MESSAGE Launch configuration hr-worker - HrWorkerApplication at file:/C:/ws_project/.metadata/.plugins/org.eclipse.debug.core/.launches/hr-worker%20-%20HrWorkerApplication.launch does not exist.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:39.933
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:39.974
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:40.005
+!MESSAGE buffering callback sts4.classpath.urHQOxQx hr-worker false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:40.006
+!MESSAGE executing callback sts4.classpath.urHQOxQx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:40.086
+!MESSAGE executing callback sts4.classpath.urHQOxQx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:41.110
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:41.124
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:41.132
+!MESSAGE buffering callback sts4.classpath.urHQOxQx hr-worker false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:41.133
+!MESSAGE executing callback sts4.classpath.urHQOxQx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-26 10:03:41.370
+!MESSAGE executing callback sts4.classpath.urHQOxQx SUCCESS [done]
