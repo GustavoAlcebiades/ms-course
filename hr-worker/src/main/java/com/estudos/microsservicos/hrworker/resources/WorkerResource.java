@@ -22,9 +22,9 @@ public class WorkerResource {
 	private WorkerRepository wk;
 	
 	@GetMapping()
-	public ResponseEntity<List<Worker>> getAllWorker(){
+	public ResponseEntity<List<Worker>> getAllWorker() {
 		List<Worker> worker = wk.findAll();
-		
+
 		return ResponseEntity.ok(worker);
 	}
 	
