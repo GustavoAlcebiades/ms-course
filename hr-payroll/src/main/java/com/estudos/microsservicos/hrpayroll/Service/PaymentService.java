@@ -13,6 +13,7 @@ public class PaymentService {
 	@Autowired
 	private WorkerFeignClient workerFeignClient;
 
+	//Método responsável pela regra de negócio que recupera os valores da classe worker
 	public Payment getPayment(Long workerId, int days) {
 
 		Worker wk = workerFeignClient.getOneWorker(workerId).getBody();

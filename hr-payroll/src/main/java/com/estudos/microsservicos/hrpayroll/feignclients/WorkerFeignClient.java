@@ -13,7 +13,7 @@ import com.estudos.microsservicos.hrpayroll.entity.Worker;
  Nas versões mais recentes do Feign, precisamos passar além da url, um nome para nosso cliente. 
  O método responsável por buscar o usuário pelo email pode ser declarado utilizando anotações já conhecidas do Spring.
  
- @FeignClient: Registra no contexto a interface como um client do Feigh;
+ @FeignClient: Registra no contexto a interface como um client do Feign;
 url: Define a URL do serviço a ser requisitado;
 path: Define o path do serviço, que pode ser configurado separadamente da url;
 name: Define um nome para o client;
