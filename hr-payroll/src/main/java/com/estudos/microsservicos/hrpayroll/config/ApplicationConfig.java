@@ -1,4 +1,4 @@
-package com.estudos.microsservicos.hrworker.config;
+package com.estudos.microsservicos.hrpayroll.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

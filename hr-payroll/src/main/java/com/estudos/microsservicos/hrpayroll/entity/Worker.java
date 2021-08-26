@@ -1,4 +1,4 @@
-package com.estudos.microsservicos.hrworker.entity;
+package com.estudos.microsservicos.hrpayroll.entity;
 
 import java.io.Serializable;
 
