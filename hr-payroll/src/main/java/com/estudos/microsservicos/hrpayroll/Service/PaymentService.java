@@ -16,7 +16,7 @@ public class PaymentService {
 	//Método responsável pela regra de negócio que recupera os valores da classe worker
 	public Payment getPayment(Long workerId, int days) {
 
-		Worker wk = workerFeignClient.getOneWorker(workerId).getBody();
+		Worker wk = workerFeignClient.getOneWorker(workerId).getBody(); //chamada da classe feign client que consome da api de worker
 		return new Payment(wk.getName(), wk.getDailyIncome(), days);
 	}
 }
