@@ -15,7 +15,12 @@ spring:
       - id: hr-payroll
         uri: http://localhost:8101/
         predicates:
-        - Path=/payments/**       enabled: true
+        - Path=/payments/** 
+        
+      - id: hr-user
+        uri: http://localhost:8002/
+        predicates:
+        - Path=/users/**       enabled: true
         
   eureka:
      instance:
