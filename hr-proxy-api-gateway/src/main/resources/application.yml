@@ -20,7 +20,15 @@ spring:
       - id: hr-user
         uri: http://localhost:8002/
         predicates:
-        - Path=/users/**       enabled: true
+        - Path=/users/** 
+        
+      - id: hr-oauth
+        uri: http://localhost:8003/
+        predicates:
+        - Path=/users/** 
+        - Cookie=Set-Cookie 
+      enabled: true
+      
         
   eureka:
      instance:
